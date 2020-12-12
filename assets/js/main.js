@@ -197,3 +197,24 @@
   });
 
 })(jQuery);
+
+$('.slick-technics').slick({
+	infinite: true,
+	dots: true,
+	slidesToShow: 6,
+	slidesToScroll: 6,
+	responsive: [
+	    {
+	      breakpoint: 768,
+	      settings: {
+	        slidesToShow: 2,
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	      }
+	    }
+    ]
+});

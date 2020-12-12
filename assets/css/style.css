@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -77,6 +78,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
+
+
+  
 }
 
 #header .logo a {
@@ -123,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #14c871;
+  color: red;
 }
 
 .nav-menu .drop-down ul {
@@ -342,9 +346,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: #fff;
-  padding-top: 82px;
+padding-top: 80px;
+  
+
+  
 }
 
 #hero h1 {
@@ -356,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #858ea1;
+  
   margin: 10px 0  30px 0;
   font-size: 24px;
 }
@@ -517,8 +522,26 @@ section {
   .section-title span {
     font-size: 38px;
   }
+  #header .logo{
+    font-size: 23px;
+  }
+}
+.numbers p{
+  margin: 0;
+}
+.numbers{
+  font-size: 14px;
+  color:orange;
+  font-weight: bold;
 }
 
+.rejim {
+  margin-right: 20px;
+}
+.rejim p{
+  margin: 0;
+  font-size: 14px;
+}
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
@@ -1358,7 +1381,31 @@ section {
   float: right;
   font-size: 13px;
 }
+.fixed-whatsapp{
+  position:fixed ;
+  bottom:20px;
+  right:15px;
+  font-size:28px;
+  background: #14c871;;
+  color:white;
+  padding:0 10px;
+  border-radius:5px;
+}
+.fixed-phone{
+  position:fixed ;
+  bottom:70px;
+  right:15px;
+  font-size:24px;
+  background: #14c871;;
+  color:white;
+  padding:3px 10px;
+  border-radius:5px;
+}
 
+.slider-images{
+  width: 100%;
+  height: 90%;
+}
 @media (max-width: 992px) {
   #footer .copyright, #footer .credits {
     float: none;
