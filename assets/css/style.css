@@ -793,6 +793,8 @@ section {
   position: relative;
   z-index: 2;
   border: 6px solid #fff;
+  height:90px;
+  object-fit:cover;
 }
 
 .testimonials .testimonial-item h3 {
