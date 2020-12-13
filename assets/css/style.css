@@ -1396,6 +1396,7 @@ section {
   color:white;
   padding:0 10px;
   border-radius:5px;
+  z-index:10;
 }
 .fixed-phone{
   position:fixed ;
@@ -1406,6 +1407,7 @@ section {
   color:white;
   padding:3px 10px;
   border-radius:5px;
+  z-index:10;
 }
 
 .slider-images{
